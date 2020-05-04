@@ -16,5 +16,12 @@ namespace Software2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Suppliers sup = new Suppliers();
+            sup.Show();
+            this.Hide();
+        }
     }
 }
