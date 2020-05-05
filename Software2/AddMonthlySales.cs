@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Software2
 {
-    public partial class Form1 : Form
+    public partial class AddMonthlySales : Form
     {
-        public Form1()
+        public AddMonthlySales()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Suppliers sup = new Suppliers();
-            sup.Show();
-            this.Hide();
         }
     }
 }
